@@ -1,0 +1,10 @@
+#banner{
+	    position: relative;
+	    top: 0;
+	    left: 0;
+		.banner-text{
+			position: absolute;
+			bottom: 50%;
+			transform:translate(0,50%);
+		}
+}

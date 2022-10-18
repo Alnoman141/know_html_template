@@ -1,0 +1,23 @@
+header{
+	.navbar{
+		background-color: #000 !important;
+		ul{
+			li:hover{
+				a{
+					color: $secondary !important;
+				}
+			}
+		}
+	}
+	.main-nav{
+	position: fixed;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 4000;
+    }
+    .main-nav-scrolled{
+	background-color: rgba(0,0,0,0.4);
+    }
+}

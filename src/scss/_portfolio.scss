@@ -1,0 +1,18 @@
+#portfolio{
+  figure{
+    position: relative;
+    overflow: hidden;
+    figcaption{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0,0,0,0.6);
+      transition: all 0.5s;
+    }
+  }
+}
+#portfolio figure:hover figcaption{
+  top: 0;
+}

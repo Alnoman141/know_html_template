@@ -1,0 +1,11 @@
+#testimonial{
+	.carousel-inner{
+		.carousel-item{
+			background-color: $secondary !important;
+			img{
+	          height: 150px;
+	          width: 125px;
+	        }
+		}
+	}
+}
